@@ -1,6 +1,6 @@
 @font-face {
   font-family: Roboto;
-  src: url(/fonts/Roboto-Regular.ttf);
+  src: url(/font/Roboto-Regular.ttf);
 }
 
 body {
@@ -14,8 +14,12 @@ footer {
   padding: 2rem 0;
 }
 
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 footer {
-  background-color: #eceeef;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .author-info {
@@ -24,6 +28,14 @@ footer {
 
 .author-description {
   font-size: 1.25rem;
+}
+
+.hero {
+  padding-top: 2rem;
+}
+
+.hero-img {
+  width: 100%;
 }
 
 .main-title {
